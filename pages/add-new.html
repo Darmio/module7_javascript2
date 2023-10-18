@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/add-new.css">
+    <script type="text/javascript" src="../js/main.js"></script>
+</head>
+
+<body>
+<div w3-include-html="header.html"></div> 
+    <main>
+        <div class="container position">
+            <div class = "title">Add New Coupon</div>
+            <form class="form">
+                <div class="row">
+                    <div class="column">
+                      <label for="company">Company</label>
+                      <input type="text" id="company" name="company" required>
+                      <label for="category">Category</label>
+                      <select name="category">
+                        <option value="value1">Значение 1</option>
+                        <option value="value2" selected>Значение 2</option>
+                        <option value="value3">Значение 3</option>
+                      </select>
+                      <label for="valid-to">Valid to</label>
+                      <input type="datetime-local" id="valid-to" name="valid-to" value ="2023-09-08T15:43" required>
+                      <label for="price">Price</label>
+                      <input type="number" id="price" name="price" min=0 required>
+                      <label for="upload-file">Images</label>
+                      <div class="form-row">
+                      <input type="text" id="upload-file" name="upload-file">
+                      <div class="image-upload">
+                        <label for="file-input">
+                          <img class="img-upload" src="../img/offline_share_black_24dp.svg"/>
+                        </label>
+                        <input type="file" id="file-input" accept=".jpg, .jpeg, .png" multiple />
+                      </div>
+                     </div>
+                 
+                    </div>  
+                    <div class="column">
+                      <label for="itemName">Item Name</label>
+                      <input type="text" id="itemName" name="itemName" required>
+                      <label for="short-description">Short description</label>
+                      <textarea id="short-description" name="short-description">
+                      </textarea>
+                      <label for="long-description">Long description</label>
+                      <textarea id="long-description" name="long-description">
+                      </textarea>
+                      <div class="form-row-btn">
+                        <button type="submit" class="btn-gray" >Back</button>
+                        <button type="submit" class="btn-green" >Save</button>   
+                       </div> 
+                    </div>   
+                  </div>  
+                
+            </form>
+        </div>
+    </main>
+	
+<script>
+includeHTML();
+</script>
+
+</body>
+
+</html>

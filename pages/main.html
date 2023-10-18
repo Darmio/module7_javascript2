@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script type="text/javascript" src="../js/main.js"></script>
+    
+</head>
+
+<body>
+  <input type="hidden" id = "countPerRow" value="7">
+  <input type="hidden" id = "rowsPerPage" value="3">
+  <button onclick="export2json()">local txt file</button>
+<div w3-include-html="header.html"></div> 
+    <main>
+        <div class="tags-wrapper">
+            <div class="tag">
+              <div class="tag-image"></div>
+              <div class="tag-name">Category</div>
+            </div>
+            <div class="tag">
+              <div class="tag-image"></div>
+              <div class="tag-name">Category</div>
+            </div>
+            <div class="tag">
+              <div class="tag-image"></div>
+              <div class="tag-name">Category</div>
+            </div>
+            <div class="tag">
+              <div class="tag-image"></div>
+              <div class="tag-name">Category</div>
+            </div>
+            <div class="tag">
+              <div class="tag-image"></div>
+              <div class="tag-name">Category</div>
+            </div>
+            <div class="tag">
+              <div class="tag-image"></div>
+              <div class="tag-name">Category</div>
+            </div>
+            <div class="tag">
+              <div class="tag-image"></div>
+              <div class="tag-name">Category</div>
+            </div>
+          </div>
+        
+          <button onclick="topFunction()" id="btnScrollTop" title="Go to top">Top</button>
+          <button onclick="returnToScrollPosition()" id="btnScrollReturn" title="Go to end">back</button>
+          <div id = "certificates-wrapper" class="certificates-wrapper">
+    </main>
+	
+<script>
+includeHTML();
+</script>
+<script type="module" src="../js/task2.js"></script>
+<script src="../js/main_page.js"></script>
+</body>
+
+</html>

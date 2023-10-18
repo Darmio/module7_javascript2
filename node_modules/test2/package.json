@@ -1,0 +1,24 @@
+{
+  "name": "test2",
+  "version": "1.0.5",
+  "description": "this is test module for nodejs",
+  "main": "test1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaomao1884600/nodejs"
+  },
+  "keywords": [
+    "test",
+    "module",
+    "nodejs"
+  ],
+  "author": "wangwujun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaomao1884600/nodejs/issues"
+  },
+  "homepage": "https://github.com/xiaomao1884600/nodejs"
+}

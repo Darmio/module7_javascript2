@@ -1,0 +1,170 @@
+main {
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .tags-wrapper {
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    gap: 4em;
+    padding: 3em 0em;
+  }
+  
+  .tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+  }
+  
+  .tag-image {
+    height: 4em;
+    width: 4em;
+    background-color: gray;
+  }
+  
+  .tag-name {
+    font-size: 0.95em;
+  }
+  
+  .certificates-wrapper {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+  }
+  
+  .certificate-image {
+    max-width: 100%;
+    display: flex;
+    height: 11em;
+    width: 12em;
+    object-fit:contain;
+    background-color: gray;
+  }
+
+  .certificate-image img {
+    height: 11em;
+    width: 12em;
+    object-fit:cover;
+  }
+  
+  .certificate-description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    padding: 0.5em 0em 0.3em;
+    background-color: white;
+    min-height: 10em;
+    position: relative;
+  }
+
+  .certificate-title-text {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
+  .certificate-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12em;
+    font-size: 0.9em;
+    padding: 0em 0.5em;
+   
+  }
+  
+  .material-icons {
+    font-size: 0.9em;
+  }
+  
+  .certificate-brief {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 0.5em;
+    width: 12em;
+  }
+  
+  .certificate-brief-text {
+    font-size: 0.63em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
+  .certificate-brief-expires {
+    font-size: 0.5em;
+    color: lightgray;
+  }
+  
+  .certificate-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: 0.3em 0.5em 0em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    position: absolute;
+    bottom: 0;
+    width: 12em;
+  }
+  
+  .certificate-details-price {
+    font-size: 0.95em;
+  }
+  
+  .certificate-details-button {
+    font-size: 0.63em;
+    padding: 0.2em 1em;
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+  }
+
+  #btnScrollTop {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    /*z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: gray; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #btnScrollTop:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  #btnScrollReturn {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    top: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    /*z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: gray; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+  #btnScrollReturn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  

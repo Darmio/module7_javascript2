@@ -1,0 +1,72 @@
+.position{
+    width: 100%;
+
+}
+
+.column {
+    height: 350px;
+}
+
+.title{
+    padding-left: 15%;
+}
+
+.image-upload>input {
+  display: none;
+    top: 40px;
+   
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color:white;
+    margin: 0;
+    height: 30px;
+    width: 96%;
+}
+
+.form-row input {
+    margin: 0px 0 0px 10px;
+    /*border-right: 0; */
+}
+
+.form-row-btn { 
+    justify-content: space-between;  
+}
+
+/*.form-row-btn button {
+    width: 30%;
+    color: white;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}*/
+
+.row {
+    margin: 5px 15% 0px 15%;
+    width: 70%;
+}
+
+.img-upload {
+    padding: 0;
+    margin: 2px 0px 0px 0px;
+ /*   border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 0;
+    border-bottom: 1px solid lightgray; */
+    
+}
+
+.container textarea {   
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 94%;
+    margin: 10px 10px 5px 10px; 
+}
+

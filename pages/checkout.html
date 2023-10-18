@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/checkout.css">
+    <script type="text/javascript" src="../js/main.js"></script>
+</head>
+
+<body>
+<div w3-include-html="header.html"></div> 
+    <main>
+        <div class="container position">
+            <div class = "title">Checkout</div>
+            <form class="form">
+               
+                    <div class="column">
+                        <div class="checkout-items">
+                            <!-- This structure would be repeated for each item in the cart -->
+                            <div class="checkout-item">
+                                <img src="../img/grey_square.svg" alt="Product Name">
+                                <div class="item-info">
+                                    <h2>Product Name</h2>
+                                    <br/>
+                                    <p>Short description of the product.</p>
+                                </div>
+                                <p class="item-price">$120</p>
+                            </div>
+                            <div class="checkout-item">
+                                <img src="../img/grey_square.svg" alt="Product Name">
+                                <div class="item-info">
+                                    <h2>Product Name</h2>
+                                    <p>Short description of the product.</p>
+                                </div>
+                                <p class="item-price">$50</p>
+                            </div>
+                            <div class="checkout-item">
+                                <img src="../img/grey_square.svg" alt="Product Name">
+                                <div class="item-info">
+                                    <h2>Product Name</h2>
+                                    <p>Short description of the product.</p>
+                                </div>
+                                <p class="item-price">$50</p>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="checkout-footer">
+                            <div class="total-price">
+                                <p>Total</p>
+                                <p>$300</p>
+                            </div>
+                        </div>
+                        <div class="form-row-btn-end">
+                            <button type="submit" class="btn-gray" >Back</button>
+                            <button type="submit" class="btn-green" >Checkout</button>   
+                        </div> 
+                    </div>              
+            </form>
+        </div>
+    </main>
+	
+<script>
+includeHTML();
+</script>
+
+</body>
+
+</html>

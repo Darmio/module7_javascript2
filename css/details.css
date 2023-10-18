@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.position{
+    width: 100%;
+
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: #F1F0F0;
+}
+
+.column-left{
+    float: left;
+    width: 70%;
+    height: 350px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: #F1F0F0;;
+}
+
+.column-right{
+    float: left;
+    width: 25%;
+    height: 350px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #F1F0F0;;
+}
+
+.row {
+    margin: 30px 5% 0px 5%;
+    height: 350px;
+    width: 90%;
+    background-color: #F1F0F0;
+}
+
+.row-margin{
+    margin: 50px 7% 20px 11%;
+}
+/*.column-left > img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+   
+    
+}*/
+
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    object-position: left;
+   /* border-radius: 5px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;*/
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #ddd;
+    padding: 10px 0 0 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    height: 350px;
+    background-color: white;
+}
+
+.product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-short-description,
+.product-expires-in {
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.product-long-details{
+    align-items: flex-start;
+    margin: 0 11% 0 10px; 
+    text-align: justify;
+}
+
+.product-footer {
+    align-content: flex-end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.product-price {
+    align-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.text-light{
+    color: lightgray;
+    font-size: 12px;
+}
+.form-row-btn { 
+    justify-content: space-between;  
+    align-items: end;
+}
+
+.form-row-btn-end{ 
+    justify-content: flex-end;  
+    align-items: end;
+    margin: 0 10px 0 0;
+}

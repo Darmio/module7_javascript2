@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+    <script type="text/javascript" src="../js/main.js"></script>
+</head>
+
+<body>
+<div w3-include-html="header.html"></div> 
+    <main>
+        <div class="container position">
+            <div class = "title">Register</div>
+            <form >
+                <div class="row">
+                    <div class="column">
+                      <label for="loginname">Login Name</label>
+                      <input type="text" id="loginname" name="loginname" required>
+                      <label for="password">Password</label>
+                      <input type="password" id="password" name="password" required>
+                      <label for="email">Email</label>
+                      <input type="text" id="email" name="email" required>
+                    </div>  
+                    <div class="column">
+                      <label for="firstname">First Name</label>
+                      <input type="text" id="firstname" name="firstname" required>
+                      <label for="repeat-password">Repeat password</label>
+                      <input type="password" id="repeat-password" name="repeat-password" required>
+                      <label for="adress">Adress</label>
+                      <input type="text" id="adress" name="adress" required>  
+                      <div class="form-row-btn">
+                        <button type="submit" class="btn-gray" >Cancel</button>
+                        <button type="submit" class="btn-green" >Sign Up</button>   
+                       </div> 
+                    </div>   
+                  </div>  
+                
+            </form>
+        </div>
+    </main>
+	
+<script>
+includeHTML();
+</script>
+
+</body>
+
+</html>

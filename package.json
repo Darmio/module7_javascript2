@@ -1,0 +1,12 @@
+{
+  "name": "jspractice",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "js practical task 2",
+  "main": "test1.js",
+  "author": "Daria Kushniruk",
+  "license": "ISC",
+  "devDependencies": {
+    "test2": "^1.0.5"
+  }
+}

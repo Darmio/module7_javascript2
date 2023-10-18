@@ -1,0 +1,19 @@
+
+.position{
+    width: 35%;
+    top: 30%;
+    left: 35%;  
+}
+
+#btn-sign-up {
+    background-color:lightgreen;
+   
+}
+
+#btn-cancel {
+    background-color:white;
+    color: gray;
+    border: 1px solid gray;
+
+}
+
